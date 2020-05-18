@@ -6,13 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-<header class="sticky">
+<header class="topnav">
     <a href="logout.php" role="button">Logout</a>
 </header>
 <p>add per aggiungere,remove per rimuovere</p>
-<div class="container">
-         <div class="row">
-             <div class="col-sm">
+<div class="bg-contact3" style="background-image: url('images/bg-02.jpeg');">
+		<div class="container-contact3">
+			<div class="wrap-contact3">
              <?php
              function add(){
                 require_once('config.php');
@@ -80,13 +80,33 @@
              } 
              ?>
          <form method="post"> 
+
+         <form class="contact3-form validate-form">
+         <div class="container-contact3-form-btn">
+						<button class="contact3-form-btn">
              <input type="submit" name="buttonAdd" class="button" value="add" />
+             </button>
+          </div>
+
+          <form class="contact3-form validate-form">
+         <div class="container-contact3-form-btn">
+						<button class="contact3-form-btn">
              <input type="submit" name="buttonRemove" class="button" value="remove" />
+             </button>
+          </div>
+
+          <form class="contact3-form validate-form">
+         <div class="container-contact3-form-btn">
+						<button class="contact3-form-btn">
              <input type="submit" name="buttonVisualizza" class="button" value="visualizza" />
+             </button>
+          </div>
          </form>
      </div>
    </div>
  </div>
+            </div>
+            </div>
  <hr>
 </body>
 </html>

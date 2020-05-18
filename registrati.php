@@ -21,13 +21,13 @@
 <!--===============================================================================================-->
 </head>
 <body>
-<header class="sticky">
+<header class="topnav">
   <a href="index.php" role="button">Home</a>
   <a href="accedi.php" role="button">Login</a>
 </header>
 <br />
 <form action="recuperoregistrazione.php" method="post">
-<div class="bg-contact3" style="background-image: url('images/bg-01.jpg');">
+<div class="bg-contact3" style="background-image: url('images/bg-02.jpeg');">
 		<div class="container-contact3">
 			<div class="wrap-contact3">
 				<form class="contact3-form validate-form">
@@ -59,7 +59,7 @@
 
 
 <footer>
-    <p>Esempio di autenticazione</p>
+    <p>Lorenco Malaj - Hussain Shakir - Mattia Scarpari</p>
 </footer>
 </body>
 </html>

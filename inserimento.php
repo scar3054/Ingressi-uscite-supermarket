@@ -7,7 +7,7 @@
 </head>
 <?php require_once('config.php') ?>
 <body>
-<header class="sticky">
+<header class="topnav">
         <a href="logout.php" role="button">Logout</a>
 </header>
 <?php
@@ -24,7 +24,22 @@ $giorno = $_POST['giorno'];
     ]
     );
     ?>
-    <h1>Gestisci ingressi e uscite</h1> <hr>
-    <a href="ingressi_uscite.php" role="button">Inizia la gestione</a>
+    <div class="bg-contact3" style="background-image: url('images/bg-02.jpeg');">
+		<div class="container-contact3">
+			<div class="wrap-contact3">
+				<form class="contact3-form validate-form">
+					<span class="contact3-form-title">
+                    Gestisci ingressi e uscite
+					</span>
+                    <div class="container-contact3-form-btn">
+						<button class="contact3-form-btn">
+                        <a href="ingressi_uscite.php" role="button">Inizia la gestione</a>
+						</button>
+          </div>
+                    </form>
+			</div>
+		</div>
+	</div> <hr>
+    
 </body>
 </html>

@@ -50,7 +50,7 @@ else
 
 <body>
 
-<header class="sticky">
+<header class="topnav">
   <a href="index.php" role="button">Home</a>
   <!--Il menù viene diversificato se è attivo un utente o no-->
   <?php if ($utente_autenticato): ?>

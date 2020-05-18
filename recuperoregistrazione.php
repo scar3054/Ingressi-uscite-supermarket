@@ -7,11 +7,22 @@
 </head>
 <?php require_once('config.php') ?>
 <body>
-<header class="sticky">
+<header class="topnav">
   <a href="index.php" role="button">Home</a>
   <a href="accedi.php" role="button">Accedi</a>
 </header>
-<h1>Registrazione effettuata con successo!</h1>
+<div class="bg-contact3" style="background-image: url('images/bg-02.jpeg');">
+		<div class="container-contact3">
+			<div class="wrap-contact3">
+				<form class="contact3-form validate-form">
+					<span class="contact3-form-title">
+                    Registrazione effettuata con successo!
+					</span>
+
+                    </form>
+			</div>
+		</div>
+	</div>
 <?php
 $username = $_POST['username'];
 $password = $_POST['password'];
